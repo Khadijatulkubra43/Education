@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Vietnamese</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="animated-bg" id="animatedBg"></div>
+
+    <!-- Header with Animation -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="logo-text">
+                    <div class="logo-main">Smart Vietnamese</div>
+                    <div class="logo-sub">LANGUAGE LEARNING FOR SENIORS</div>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                 <li><a href="service.html" >Services</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                 <li><a href="contact.html" class="btn">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section with REAL Images -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Learn Vietnamese with <span class="hero-highlight">Expert Guidance</span> Designed for Seniors</h1>
+                    <p class="hero-subtitle">Join our structured video curriculum developed by world-class linguists and senior learning specialists. Build confidence, improve cognitive function, and connect with Vietnamese culture.</p>
+                    
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>500+ Expert-Led Video Lessons</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="fas fa-brain"></i>
+                            <span>Cognitive Benefits for Senior Learners</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Supportive Learning Community</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-cta">
+                        <a href="#courses" class="btn">
+                            <i class="fas fa-play-circle"></i>
+                            Start Free Trial
+                        </a>
+                        <a href="#testimonials" class="btn btn-outline">
+                            <i class="fas fa-graduation-cap"></i>
+                            View Success Stories
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-images-container">
+                        <!-- Main Hero Image: Senior learning Vietnamese -->
+                        <div class="hero-main-image">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                                 alt="Senior woman learning Vietnamese with tablet and headphones"
+                                 loading="lazy">
+                        </div>
+                        
+                        <!-- Secondary Image: Vietnamese teacher -->
+                        <div class="hero-secondary-image">
+                            <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                                 alt="Vietnamese language teacher giving a lesson"
+                                 loading="lazy">
+                        </div>
+                        
+                        <!-- Achievement Badge 1 -->
+                        <div class="achievement-badge badge-1">
+                            <div class="badge-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <div class="badge-content">
+                                <h4>500+ Lessons</h4>
+                                <p>Expert-led videos</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Achievement Badge 2 -->
+                        <div class="achievement-badge badge-2">
+                            <div class="badge-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="badge-content">
+                                <h4>98% Success</h4>
+                                <p>Senior satisfaction rate</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Achievement Badge 3 -->
+                        <div class="achievement-badge badge-3">
+                            <div class="badge-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="badge-content">
+                                <h4>10,000+</h4>
+                                <p>Senior learners</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Vietnamese Cultural Element -->
+                        <div class="vietnamese-element"></div>
+                        
+                        <!-- Learning Progress Indicator -->
+                        <div class="learning-progress">
+                            <div class="progress-header">
+                                <div class="progress-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.2rem; font-size: 1.1rem;">Average Progress</h4>
+                                    <p style="font-size: 0.8rem; margin-bottom: 0;">Our senior learners in 3 months</p>
+                                </div>
+                            </div>
+                            <div class="progress-bar-container">
+                                <div class="progress-label">
+                                    <span>Beginner</span>
+                                    <span>75% Complete</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- Learning Focus Section -->
+    <section class="learning-focus" id="learning-focus">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animated">What You'll Learn</h2>
+                <p>Practical Vietnamese for real-life situations</p>
+            </div>
+            <div class="focus-grid">
+                <div class="focus-item">
+                    <div class="focus-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Everyday Vietnamese</h3>
+                    <p>Essential phrases for daily conversations</p>
+                </div>
+                <div class="focus-item">
+                    <div class="focus-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Basic Conversations</h3>
+                    <p>Confidence in simple dialogues</p>
+                </div>
+                <div class="focus-item">
+                    <div class="focus-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Travel Phrases</h3>
+                    <p>Useful expressions for traveling</p>
+                </div>
+                <div class="focus-item">
+                    <div class="focus-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Family Language</h3>
+                    <p>Connect with family members</p>
+                </div>
+                <div class="focus-item">
+                    <div class="focus-icon">
+                        <i class="fas fa-globe-asia"></i>
+                    </div>
+                    <h3>Cultural Understanding</h3>
+                    <p>Vietnamese customs and traditions</p>
+                </div>
+                <div class="focus-item">
+                    <div class="focus-icon">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                    <h3>Pronunciation Practice</h3>
+                    <p>Master Vietnamese sounds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animated">Our Senior-Friendly Learning Method</h2>
+                <p>Designed specifically for older learners with proven pedagogical techniques</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Watch Expert-Led Videos</h3>
+                    <p>Learn from world-class linguists through clear, paced video lessons with large subtitles and high-contrast visuals designed for senior learners.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3>Practice Pronunciation</h3>
+                    <p>Use our interactive pronunciation tools with audio feedback to perfect your Vietnamese accent at your own pace.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Reinforce Learning</h3>
+                    <p>Complete structured exercises and quizzes that reinforce memory retention and build confidence through repetition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Catalog -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animated">Structured Learning Paths</h2>
+                <p>Choose from our comprehensive curriculum designed for progressive learning</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-header">
+                        <div class="course-level">BEGINNER</div>
+                        <h3>Vietnamese Foundations</h3>
+                    </div>
+                    <div class="course-body">
+                        <p>Master the basics of Vietnamese with our step-by-step introduction to pronunciation, greetings, and essential vocabulary.</p>
+                        <div class="course-stats">
+                            <div class="course-stat">
+                                <div class="stat-number">40</div>
+                                <div class="stat-label">Video Lessons</div>
+                            </div>
+                            <div class="course-stat">
+                                <div class="stat-number">12</div>
+                                <div class="stat-label">Hours</div>
+                            </div>
+                            <div class="course-stat">
+                                <div class="stat-number">95%</div>
+                                <div class="stat-label">Success Rate</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn" style="width: 100%; margin-top: 1.5rem;">
+                            <i class="fas fa-play"></i>
+                            Start Course
+                        </a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-header">
+                        <div class="course-level">INTERMEDIATE</div>
+                        <h3>Conversational Vietnamese</h3>
+                    </div>
+                    <div class="course-body">
+                        <p>Build fluency with practical conversations, cultural insights, and expanded vocabulary for real-world situations.</p>
+                        <div class="course-stats">
+                            <div class="course-stat">
+                                <div class="stat-number">60</div>
+                                <div class="stat-label">Video Lessons</div>
+                            </div>
+                            <div class="course-stat">
+                                <div class="stat-number">18</div>
+                                <div class="stat-label">Hours</div>
+                            </div>
+                            <div class="course-stat">
+                                <div class="stat-number">92%</div>
+                                <div class="stat-label">Success Rate</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn" style="width: 100%; margin-top: 1.5rem;">
+                            <i class="fas fa-play"></i>
+                            Start Course
+                        </a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-header">
+                        <div class="course-level">ADVANCED</div>
+                        <h3>Vietnamese Culture & Mastery</h3>
+                    </div>
+                    <div class="course-body">
+                        <p>Deep dive into Vietnamese culture, idiomatic expressions, and advanced language structures for true mastery.</p>
+                        <div class="course-stats">
+                            <div class="course-stat">
+                                <div class="stat-number">50</div>
+                                <div class="stat-label">Video Lessons</div>
+                            </div>
+                            <div class="course-stat">
+                                <div class="stat-number">15</div>
+                                <div class="stat-label">Hours</div>
+                            </div>
+                            <div class="course-stat">
+                                <div class="stat-number">88%</div>
+                                <div class="stat-label">Success Rate</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn" style="width: 100%; margin-top: 1.5rem;">
+                            <i class="fas fa-play"></i>
+                            Start Course
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- Experts Section -->
+    <section class="experts" id="experts">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animated">Our Expert Team</h2>
+                <p>Learn from experienced Vietnamese language experts</p>
+            </div>
+            <div class="experts-grid">
+                <div class="expert-card">
+                    <div class="expert-header">
+                        <h3>Vietnamese Language Experts</h3>
+                    </div>
+                    <div class="expert-body">
+                        <p>Our instructors are native speakers with extensive teaching experience</p>
+                        <div class="expert-tags">
+                            <span class="expert-tag">Native Speakers</span>
+                            <span class="expert-tag">Teaching Experience</span>
+                            <span class="expert-tag">Senior-Focused Methods</span>
+                            <span class="expert-tag">Trusted Instructors</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="expert-header">
+                        <h3>Teaching Methodology</h3>
+                    </div>
+                    <div class="expert-body">
+                        <p>Specially designed for senior learners with proven results</p>
+                        <div class="expert-tags">
+                            <span class="expert-tag">Slow Pace</span>
+                            <span class="expert-tag">Clear Explanations</span>
+                            <span class="expert-tag">Repetition-Based</span>
+                            <span class="expert-tag">Confidence Building</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="expert-header">
+                        <h3>Student Success</h3>
+                    </div>
+                    <div class="expert-body">
+                        <p>Thousands of seniors have successfully learned Vietnamese with us</p>
+                        <div class="expert-tags">
+                            <span class="expert-tag">98% Satisfaction</span>
+                            <span class="expert-tag">10,000+ Learners</span>
+                            <span class="expert-tag">Proven Results</span>
+                            <span class="expert-tag">Ongoing Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section class="target-audience" id="audience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animated">Who Is This For?</h2>
+                <p>Smart Vietnamese is perfect for...</p>
+            </div>
+            <div class="audience-grid">
+                <div class="audience-item">
+                    <div class="audience-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Seniors</h3>
+                    <p>Looking for engaging mental stimulation and new skills</p>
+                </div>
+                <div class="audience-item">
+                    <div class="audience-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Beginners</h3>
+                    <p>Starting Vietnamese from scratch with no prior experience</p>
+                </div>
+                <div class="audience-item">
+                    <div class="audience-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3>Lifelong Learners</h3>
+                    <p>Always curious and eager to learn something new</p>
+                </div>
+                <div class="audience-item">
+                    <div class="audience-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Vietnamese for Daily Life</h3>
+                    <p>Wanting practical language for everyday situations</p>
+                </div>
+                <div class="audience-item">
+                    <div class="audience-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Culturally Curious</h3>
+                    <p>Interested in Vietnamese culture and traditions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emotional Tone Section -->
+    <section class="emotional-tone" id="tone">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animated">Our Learning Atmosphere</h2>
+                <p>Experience learning in a positive, encouraging environment</p>
+            </div>
+            <div class="tone-grid">
+                <div class="tone-item">
+                    <div class="tone-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Confidence</h3>
+                    <p>Building self-assurance with each lesson</p>
+                </div>
+                <div class="tone-item">
+                    <div class="tone-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Bravery</h3>
+                    <p>Courage to try new things at any age</p>
+                </div>
+                <div class="tone-item">
+                    <div class="tone-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Encouragement</h3>
+                    <p>Positive reinforcement and support</p>
+                </div>
+                <div class="tone-item">
+                    <div class="tone-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Friendly Learning</h3>
+                    <p>Warm, welcoming community atmosphere</p>
+                </div>
+                <div class="tone-item">
+                    <div class="tone-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Old-Fashioned Warmth</h3>
+                    <p>Traditional values of patience and respect</p>
+                </div>
+                <div class="tone-item">
+                    <div class="tone-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Lively Spirit</h3>
+                    <p>Energetic and engaging teaching style</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animated">Success Stories from Our Senior Learners</h2>
+                <p>Real experiences from seniors who transformed their lives through language learning</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-text">
+                        "After retiring, I wanted to keep my mind active. Smart Vietnamese has been incredible—not just for learning the language, but for the cognitive benefits. I feel sharper and more engaged than I have in years."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1584308972278-6d1b6c8b6c7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" 
+                                 alt="Robert Chen"
+                                 loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>Robert Chen, 72</h4>
+                            <p>Retired Engineer • 6 Months Progress</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Learning Vietnamese has connected me with my grandchildren in Vietnam in a whole new way. The cultural lessons are as valuable as the language itself. Thank you, Smart Vietnamese!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" 
+                                 alt="Margaret Wilson"
+                                 loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>Margaret Wilson, 68</h4>
+                            <p>Grandmother • 4 Months Progress</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "As a former teacher, I appreciate the pedagogical approach. The lessons are perfectly paced for senior learners, and the repetition really helps with memory retention."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1544717305-99670f9c28f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" 
+                                 alt="James O'Malley"
+                                 loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>James O'Malley, 75</h4>
+                            <p>Retired Teacher • 8 Months Progress</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="start">
+        <div class="container">
+            <h2 class="animated">Start Your Vietnamese Learning Journey Today</h2>
+            <p>Join thousands of seniors discovering the joy of language learning with our expert-led video platform. First 7 days completely free, no credit card required.</p>
+            <a href="#" class="btn" style="background: var(--white); color: var(--dark-gray);">
+                <i class="fas fa-graduation-cap"></i>
+                Begin Free Trial
+            </a>
+            <p style="margin-top: 1.5rem; font-size: 0.9rem; color: rgba(255,255,255,0.7);">✓ No commitment • Cancel anytime • Senior-friendly support</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="logo-main">Smart Vietnamese</div>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1.5rem;">Expert-led educational videos for learning Vietnamese, designed especially for seniors with a focus on confidence, cognitive benefits, and cultural connection.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Learning Resources</h3>
+                    <ul>
+                        <li><a href="#">Video Course Catalog</a></li>
+                        <li><a href="#">Senior Learning Guide</a></li>
+                        <li><a href="#">Pronunciation Tools</a></li>
+                        <li><a href="#">Cultural Insights</a></li>
+                        <li><a href="#">Cognitive Benefits Research</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Instructors</a></li>
+                        <li><a href="#">Teaching Methodology</a></li>
+                        <li><a href="#">Accessibility Features</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Accessibility Statement</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Smart Vietnamese Learning. All educational content is developed in-house by our team of expert linguists and senior learning specialists.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

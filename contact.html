@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Vietnamese </title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="logo-text">
+                    <div class="logo-main">Smart Vietnamese</div>
+                    <div class="logo-sub">LANGUAGE LEARNING FOR SENIORS</div>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html" style="color: var(--dark-yellow);">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-hands-helping"></i> Contact Smart Vietnamese
+                </span>
+                <h1>Get in Touch with Our Support Team</h1>
+                <p>We're here to help with friendly, patient support designed specifically for senior learners. Contact us for assistance with courses, learning, or any questions you may have.</p>
+                
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4 style="margin-bottom: 0.2rem;">Fast Response</h4>
+                            <p>Within 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="hero-stat">
+                        <i class="fas fa-user-check"></i>
+                        <div>
+                            <h4 style="margin-bottom: 0.2rem;">Human Support</h4>
+                            <p>Real people, no bots</p>
+                        </div>
+                    </div>
+                    <div class="hero-stat">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h4 style="margin-bottom: 0.2rem;">Secure & Private</h4>
+                            <p>Your information is safe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Purpose -->
+    <section class="contact-purpose" id="purpose">
+        <div class="container">
+            <h2 class="text-center">How We Can Help You</h2>
+            <p class="text-center">Contact us for assistance with any of these common requests</p>
+            
+            <div class="purpose-grid">
+                <div class="purpose-card">
+                    <div class="purpose-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>Questions About Courses</h3>
+                    <p>Get help choosing the right course, understanding course content, or planning your learning journey.</p>
+                </div>
+                
+                <div class="purpose-card">
+                    <div class="purpose-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Help with Learning</h3>
+                    <p>Struggling with pronunciation, tones, or remembering vocabulary? Our experts can help.</p>
+                </div>
+                
+                <div class="purpose-card">
+                    <div class="purpose-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Technical Support</h3>
+                    <p>Need help accessing videos, navigating the platform, or troubleshooting technical issues?</p>
+                </div>
+                
+                <div class="purpose-card">
+                    <div class="purpose-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>General Inquiries</h3>
+                    <p>Have questions about our teaching approach, instructors, or anything else? We're here to chat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="contact-methods" id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <p class="text-center">Choose your preferred way to get in touch with our support team</p>
+            
+            <div class="methods-container">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h3>Send Us a Message</h3>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label" for="name">
+                                <i class="fas fa-user"></i> Full Name
+                            </label>
+                            <input type="text" id="name" class="form-input form-input-lg" placeholder="Enter your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="email">
+                                <i class="fas fa-envelope"></i> Email Address
+                            </label>
+                            <input type="email" id="email" class="form-input form-input-lg" placeholder="Enter your email address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="subject">
+                                <i class="fas fa-tag"></i> Subject
+                            </label>
+                            <select id="subject" class="form-input form-input-lg" required>
+                                <option value="">Select a topic</option>
+                                <option value="course-help">Course Help</option>
+                                <option value="learning-support">Learning Support</option>
+                                <option value="technical-issue">Technical Issue</option>
+                                <option value="purchase-help">Purchase Help</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="message">
+                                <i class="fas fa-comment-alt"></i> Your Message
+                            </label>
+                            <textarea id="message" class="form-input" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-block btn-lg">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Email Support</h4>
+                            <p><strong>help@smartvietnamese.com</strong></p>
+                            <p>For general inquiries and support</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--medium-gray);">
+                                <i class="fas fa-clock"></i> Response within 24 hours
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Phone Support</h4>
+                            <p><strong>1-800-555-LEARN</strong></p>
+                            <p>Call us for immediate assistance</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--medium-gray);">
+                                <i class="fas fa-clock"></i> Mon-Fri: 9am-5pm EST
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Office Hours</h4>
+                            <p><strong>Monday - Friday</strong></p>
+                            <p>9:00 AM - 5:00 PM EST</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--medium-gray);">
+                                <i class="fas fa-calendar"></i> Closed weekends & holidays
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Live Chat</h4>
+                            <p><strong>Available during office hours</strong></p>
+                            <p>Click the chat icon in the bottom right for immediate help</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--medium-gray);">
+                                <i class="fas fa-bolt"></i> Fastest response time
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Senior-Friendly Form Design -->
+    <section class="senior-design" id="design">
+        <div class="container">
+            <h2 class="text-center">Senior-Friendly Contact Design</h2>
+            <p class="text-center">Our contact forms are designed with senior users in mind for maximum comfort and ease</p>
+            
+            <div class="design-features">
+                <div class="design-feature">
+                    <div class="design-icon">
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                    <h3>Large Input Fields</h3>
+                    <p>Easy-to-click form fields with plenty of space for comfortable typing</p>
+                </div>
+                
+                <div class="design-feature">
+                    <div class="design-icon">
+                        <i class="fas fa-font"></i>
+                    </div>
+                    <h3>Clear Labels</h3>
+                    <p>Large, readable labels with high contrast colors for easy identification</p>
+                </div>
+                
+                <div class="design-feature">
+                    <div class="design-icon">
+                        <i class="fas fa-minus-circle"></i>
+                    </div>
+                    <h3>Minimal Required Fields</h3>
+                    <p>We only ask for essential information to make the process quick and simple</p>
+                </div>
+                
+                <div class="design-feature">
+                    <div class="design-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Easy-to-Read Text</h3>
+                    <p>Large font sizes and clear typography for comfortable reading</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support & Assistance -->
+    <section class="support-assistance" id="support">
+        <div class="container">
+            <h2 class="text-center">Specialized Support & Assistance</h2>
+            <p class="text-center">We provide targeted help for common senior learning needs</p>
+            
+            <div class="assistance-grid">
+                <div class="assistance-item">
+                    <i class="fas fa-book-reader fa-3x" style="color: var(--dark-yellow); margin-bottom: 1.5rem;"></i>
+                    <h3>Learning Help</h3>
+                    <p>Personalized guidance for mastering Vietnamese tones, pronunciation, and vocabulary at your own pace</p>
+                </div>
+                
+                <div class="assistance-item">
+                    <i class="fas fa-video fa-3x" style="color: var(--dark-yellow); margin-bottom: 1.5rem;"></i>
+                    <h3>Video Access Support</h3>
+                    <p>Help with watching lessons, adjusting playback speed, using subtitles, and troubleshooting video issues</p>
+                </div>
+                
+                <div class="assistance-item">
+                    <i class="fas fa-shopping-cart fa-3x" style="color: var(--dark-yellow); margin-bottom: 1.5rem;"></i>
+                    <h3>Purchase Assistance</h3>
+                    <p>Guided help with course selection, payment processing, and accessing purchased content</p>
+                </div>
+                
+                <div class="assistance-item">
+                    <i class="fas fa-hands-helping fa-3x" style="color: var(--dark-yellow); margin-bottom: 1.5rem;"></i>
+                    <h3>Friendly Guidance</h3>
+                    <p>Patient, respectful support from team members trained to work with senior learners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Response Expectations -->
+    <section class="response-section" id="response">
+        <div class="container">
+            <h2 class="text-center">What to Expect When You Contact Us</h2>
+            <p class="text-center">Transparent communication about our response process</p>
+            
+            <div class="response-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <div>
+                        <h3>Clear Response Time</h3>
+                        <p>We respond to all inquiries within 24 hours during business days. Most emails are answered within a few hours.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <div>
+                        <h3>Human Support</h3>
+                        <p>Every message is read and responded to by a real person - no automated bots or generic responses.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <div>
+                        <h3>Respectful Communication</h3>
+                        <p>We communicate clearly, respectfully, and patiently, understanding that everyone learns at their own pace.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <div>
+                        <h3>Follow-Up Support</h3>
+                        <p>We don't just solve your immediate problem - we follow up to ensure you're continuing successfully with your learning.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Reassurance -->
+    <section class="trust-section" id="trust">
+        <div class="container">
+            <h2 class="text-center">Your Privacy & Trust Matter</h2>
+            <p class="text-center">We handle your information with the utmost care and respect</p>
+            
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Privacy Respected</h3>
+                    <p>Your personal information is kept confidential and never shared with third parties</p>
+                </div>
+                
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure Communication</h3>
+                    <p>All contact forms and emails are encrypted for your security and privacy</p>
+                </div>
+                
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h3>No Spam Ever</h3>
+                    <p>We never send unsolicited emails or add you to marketing lists without permission</p>
+                </div>
+                
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Trusted Partnership</h3>
+                    <p>We're committed to building long-term, trusted relationships with all our learners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location-section" id="location">
+        <div class="container">
+            <div class="location-content">
+                <div class="location-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h2>Our Location & Service Area</h2>
+                <p>Based in the United States, we provide online Vietnamese language courses and support to senior learners worldwide.</p>
+                
+                <div style="margin: 2rem 0;">
+                    <h3>Service Hours</h3>
+                    <p><strong>Eastern Standard Time (EST)</strong></p>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    <p>Saturday - Sunday: Closed</p>
+                </div>
+                
+                <div style="margin: 2rem 0;">
+                    <h3>Online-Based Support</h3>
+                    <p>All our support is provided online through email, phone, and chat. This allows us to help learners from anywhere in the world at their convenience.</p>
+                </div>
+                
+                <a href="#contact" class="btn">
+                    <i class="fas fa-comments"></i>
+                    Start a Conversation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact-cta" id="cta">
+        <div class="container">
+            <h2 class="text-center">Ready to Get Help?</h2>
+            <p class="text-center">Don't hesitate to reach out. Our friendly support team is ready to assist you with any questions or concerns about learning Vietnamese.</p>
+            
+            <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 3rem; flex-wrap: wrap;">
+                <a href="#contact" class="btn btn-lg">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </a>
+                <a href="tel:1-800-555-LEARN" class="btn btn-lg btn-outline">
+                    <i class="fas fa-phone"></i>
+                    Call Us Now
+                </a>
+                <a href="mailto:help@smartvietnamese.com" class="btn btn-lg btn-outline">
+                    <i class="fas fa-envelope"></i>
+                    Email Support
+                </a>
+            </div>
+            
+            <p style="margin-top: 3rem; font-size: 1rem; color: rgba(255,255,255,0.7);">
+                <i class="fas fa-check-circle"></i> 24-Hour Email Response • 
+                <i class="fas fa-check-circle"></i> Human Support Only • 
+                <i class="fas fa-check-circle"></i> Senior-Friendly Communication
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="logo-main">Smart Vietnamese</div>
+                    </div>
+                    <p>Senior-focused Vietnamese language learning through expert-led courses. Designed with accessibility, confidence, and cultural connection in mind.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Contact</h3>
+                    <ul>
+                        <li><a href="mailto:help@smartvietnamese.com"><i class="fas fa-envelope"></i> Email Support</a></li>
+                        <li><a href="tel:1-800-555-LEARN"><i class="fas fa-phone"></i> Call Us</a></li>
+                        <li><a href="#contact"><i class="fas fa-comment-alt"></i> Contact Form</a></li>
+                        <li><a href="#support"><i class="fas fa-headset"></i> Live Chat</a></li>
+                        <li><a href="#location"><i class="fas fa-clock"></i> Office Hours</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support Areas</h3>
+                    <ul>
+                        <li><a href="#purpose"><i class="fas fa-question-circle"></i> Course Questions</a></li>
+                        <li><a href="#support"><i class="fas fa-book-open"></i> Learning Help</a></li>
+                        <li><a href="#support"><i class="fas fa-tools"></i> Technical Support</a></li>
+                        <li><a href="#support"><i class="fas fa-shopping-cart"></i> Purchase Help</a></li>
+                        <li><a href="#design"><i class="fas fa-universal-access"></i> Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="courses.html"><i class="fas fa-book-open"></i> Courses</a></li>
+                        <li><a href="shop.html"><i class="fas fa-shopping-cart"></i> Shop</a></li>
+                        <li><a href="#response"><i class="fas fa-clock"></i> Response Times</a></li>
+                        <li><a href="#trust"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Smart Vietnamese. Expert-led Vietnamese courses for senior learners. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
